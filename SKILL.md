@@ -1,3 +1,8 @@
+---
+name: opendota-api
+description: Query Dota 2 hero item builds and stats from OpenDota API
+---
+
 # OpenDota API Skill 🎮
 
 Query Dota 2 hero item builds and stats from the OpenDota API.
