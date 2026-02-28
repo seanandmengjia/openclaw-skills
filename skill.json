@@ -1,0 +1,20 @@
+{
+  "name": "opendota-api",
+  "version": "1.0.0",
+  "description": "Query Dota 2 hero item builds and stats from OpenDota API",
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "skills": {
+    "opendota": {
+      "description": "Query OpenDota API for hero builds, stats, and match data",
+      "module": "./opendota.js"
+    }
+  },
+  "config": {
+    "apiKey": {
+      "type": "string",
+      "optional": true,
+      "description": "Optional OpenDota API key (not required for basic usage)"
+    }
+  }
+}
